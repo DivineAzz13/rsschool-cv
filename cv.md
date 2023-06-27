@@ -29,8 +29,18 @@ So I've dicided to get more knowledge with HTML5, CSS3, and vanilla-javascript a
 
 ### Code example
 
-<code> some code examples are still initiating
-here
+```
+getAverage() {
+  let allSubjects = Object.keys(this.marks);
+  let result = 0;
+  for (let i = 0; i < allSubjects.length; i++) {
+    result += this.marks[allSubjects[i]].reduce(function (prev, crnt) {
+    return prev + crnt;
+    }, 0);
+  }
+  return result / allSubjects.length;
+}
+```
 
 ---
 
