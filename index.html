@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
+  <title>CV</title>
+</head>
+
+<body>
+
+  <body>
+    <header class="header">
+      <div class="wrapper header__wrapper">
+        <a href="#" class="logo-link">
+          <div class="logo-link__img">
+            <svg width="13" height="26">
+              <use xlink:href="./assets/icons/logo.svg#logo"></use>
+            </svg>
+            <svg width="87" height="26">
+              <use xlink:href="./assets/icons/my-CV.svg#my-CV"></use>
+            </svg>
+          </div>
+        </a>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code Example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#courses" class="nav-link">Courses</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#languages" class="nav-link">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="wrapper hero__wrapper">
+          <h1 class="hero__title" id="about">Bogdan Logachev</h1>
+          <p class="hero__text">Front-End Developer</p>
+
+          <div class="photo-holder">
+            <img class="hero__photo" src="./assets/img/IMG_2989.jpg" alt="Photo of myself.">
+          </div>
+          <p class="hero__desctiprion hero__desctiprion--left">I’ve been studying Front-End for 6 months. In december
+            2022
+            was
+            my very first expierence of studying WebDevelopment in RS-Shool but it seemed too hard
+            with zero background.</p>
+          <p class="hero__desctiprion hero__desctiprion--rigth">So I’ve dicided to get more knowledge with HTML5, CSS3,
+            and vanilla-javascript and have an oportunity to succed the
+            course.</p>
+        </div>
+      </section>
+
+      <section class="contats">
+        <div class="wrapper contacnts__wrapper">
+          <h2 class="section-title contacts__title" id="contacts">Contacts</h2>
+          <p class="section-text">You can contact me any way you wish</p>
+          <ul class="phone-wrapper">
+            <li class="phone-item">
+              <a href="#" class="phone-link">
+                <div class="phone-link__logo">
+                  <svg width="48" height="48">
+                    <use xlink:href="./assets/icons/github.svg#github"></use>
+                  </svg>
+                </div>
+                <div class="phone-link__text">
+                  <div class="phone-link__top">
+                    <span class="phone-link__title">GitHub</span>
+                    <span class="phone-link__delivered">34m ago</span>
+                  </div>
+                  <span class="phone-link__adresss">DivineAzz13</span>
+                </div>
+              </a>
+            </li>
+            <li class="phone-item">
+              <a href="#" class="phone-link">
+                <div class="phone-logo">
+                  <svg width="48" height="48">
+                    <use xlink:href="./assets/icons/discord.svg#discord"></use>
+                  </svg>
+                </div>
+                <div class="phone-link__text">
+                  <div class="phone-link__top">
+                    <span class="phone-link__title">Discord</span>
+                    <span class="phone-link__delivered">34m ago</span>
+                  </div>
+                  <span class="phone-link__adresss">DivineAzz13</span>
+                </div>
+
+              </a>
+            </li>
+            <li class="phone-item">
+              <a href="#" class="phone-link">
+                <div class="phone-logo">
+                  <svg width="48" height="48">
+                    <use xlink:href="./assets/icons/telegram.svg#telegram"></use>
+                  </svg>
+                </div>
+                <div class="phone-link__text">
+                  <div class="phone-link__top">
+                    <span class="phone-link__title">Telegram</span>
+                    <span class="phone-link__delivered">34m ago</span>
+                  </div>
+                  <span class="phone-link__adresss">@logachev_bog</span>
+                </div>
+
+              </a>
+            </li>
+            <li class="phone-item">
+              <a href="#" class="phone-link">
+                <div class="phone-logo">
+                  <svg width="48" height="48">
+                    <use xlink:href="./assets/icons/google.svg#google"></use>
+                  </svg>
+                </div>
+                <div class="phone-link__text">
+                  <div class="phone-link__top">
+                    <span class="phone-link__title">Gmail</span>
+                    <span class="phone-link__delivered">34m ago</span>
+                  </div>
+                  <span class="phone-link__adresss">logachyovbogdan@gmail.com</span>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="wrapper skills__wrapper">
+          <h2 class="section-title skills__title">What about skills?</h2>
+          <p class="section-text skills__text">All of them are still loading...</p>
+          <ul class="skills__list">
+            <li class="skills__item skill__item--hmtl"></li>
+            <li class="skills__item skill__item--css"></li>
+            <li class="skills__item skill__item--js"></li>
+            <li class="skills__item skill__item--git"></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="code">
+        <div class="wrapper code__wrapper">
+          <h2 class="section-title code__title" id="code">Code</h2>
+          <p class="section-text code__text">Here are some simple strings</p>
+          <pre class="code__area">
+              <code class="code__zone">
+                	<span class="hljs-function">addMark</span>(subj, mark) {
+                    <span class="hljs-keyword">if</span> (mark >= 2 && mark &lt;= 5) {
+                      <span class="hljs-keyword">if</span> (!<span class="hljs-object">this</span>.marks[subj]) {
+                        <span class="hljs-object">this</span>.marks[subj] = [mark];
+                      } <span class="hljs-keyword">else</span> {
+                        <span class="hljs-object">this</span>.marks[subj].push(mark);
+                      }
+                    } <span class="hljs-keyword">else</span> {
+                      <span class="hljs-keyword">throw</span> new <span class="hljs-error">Error</span>(<span class="hljs-string">"Mark should be from 2 to 5"</span>);
+                    }
+                  }
+              </code>
+            </pre>
+        </div>
+      </section>
+
+      <section class="aditional">
+        <div class="wrapper aditional__wrapper">
+          <h2 class="section-title aditional__title">Aditional info</h2>
+          <p class="section-text">There are some more extra things about me.</p>
+          <ul class="aditional-list">
+            <li class="aditional-item aditional__courses" id="courses">
+              <h3 class="aditional-subtitle">Courses</h3>
+              <div class="aditional__link-holder">
+                <a class="aditional-link" href="https://htmlacademy.ru/study">HTML & CSS.Professional Website Coding</a>
+                <a class="aditional-link" href="https://www.udemy.com/course/javascript_full/">Udemy. Full course of
+                  JavaScript + React</a>
+              </div>
+            </li>
+            <li class="aditional-item aditional__education" id="education">
+              <h3 class="aditional-subheading">Education</h3>
+              <p class="aditional__education--name">Volodymyr Dahl East Ukrainian National University</p>
+
+            </li>
+            <li class="aditional-item aditional__projects" id="projects">
+              <h3 class="aditional-subheading">Projects</h3>
+              <ul class="aditional__project-list">
+                <li class="aditional__project-item">
+                  <span class="aditional__project-text">P1</span>
+                  <a class="aditional__project-link"
+                    href="https://htmlacademy-htmlcss.github.io/2314033-sedona-36/10/catalog.html">Sedona</a>
+                </li>
+                <li class="aditional__project-item">
+                  <span class="aditional__project-text">P2</span>
+                  <a class="aditional__project-link" href="https://divineazz13.github.io/FreshService/">Fresh</a>
+                </li>
+                <li class="aditional__project-item">
+                  <span class="aditional__project-text">P3</span>
+                  <a class="aditional__project-link" href="https://divineazz13.github.io/SoftClean/">SoftClean</a>
+                </li>
+              </ul>
+            </li>
+            <li class="aditional-item aditional__languages" id="languages">
+              <h3 class="aditional-subtitle">Languages</h3>
+              <ul class="aditional__languages-list">
+                <li class="aditional__languages-item">Russian/Ukrainian</li>
+                <li class="aditional__languages-item">English B2</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="wrapper footer__wrapper">
+        <a class="footer__link--github" href="https://github.com/DivineAzz13">
+          <svg width=" 92" height="92">
+            <use xlink:href="./assets/icons/my-github.svg#my-github"></use>
+          </svg>
+        </a>
+        <a class="footer__link--rsschool" href="https://rs.school/js/">
+          <img src="./assets/icons/rs_school_js.svg" alt="rs-school link." width="200" height="90">
+        </a>
+        <span class="footer__text">2023</span>
+      </div>
+    </footer>
+
+  </body>
+
+</body>
+
+</html>
