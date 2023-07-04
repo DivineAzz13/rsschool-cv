@@ -1,0 +1,21 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="HTML5/Flat/True/True" clip-path="url(#clip0_603_652)">
+<g id="HTML5 Logo" clip-path="url(#clip1_603_652)">
+<path id="Shape" fill-rule="evenodd" clip-rule="evenodd" d="M5.0293 7.86096L7.75131 36.7873L19.9661 40L32.2146 36.7828L34.9395 7.86096H5.0293ZM29.8818 34.9411L19.9844 37.5409L19.9844 33.8593L19.9672 33.8638L12.297 31.8464L11.7724 26.276H13.5048H15.5312L15.7978 29.1055L19.968 30.1724L19.9844 30.1682L19.9844 24.5021H11.6051L10.6847 14.7256L10.5951 13.7738H19.9715H19.9844V10.2261H32.2104L29.8818 34.9411ZM19.9844 17.3216V20.9545H15.0295L14.6873 17.3216H19.9844Z" fill="#E44D26"/>
+<path id="Shape_2" fill-rule="evenodd" clip-rule="evenodd" d="M7.81201 0H9.71489V1.78125H11.4556V0H13.3585V5.39406H11.4557V3.58781H9.71497V5.39406H7.81209V0H7.81201Z" fill="#E44D26"/>
+<path id="Shape_3" fill-rule="evenodd" clip-rule="evenodd" d="M15.8608 1.78875H14.1855V0H19.4398V1.78875H17.7638V5.39406H15.8608V1.78875H15.8608Z" fill="#E44D26"/>
+<path id="Shape_4" fill-rule="evenodd" clip-rule="evenodd" d="M20.2739 0H22.2581L23.4786 1.89531L24.6979 0H26.6829V5.39406H24.7878V2.72047L23.4786 4.63836H23.4459L22.1358 2.72047V5.39406H20.2739V0H20.2739Z" fill="#E44D26"/>
+<path id="Shape_5" fill-rule="evenodd" clip-rule="evenodd" d="M27.6299 0H29.5333V3.61109H32.2093V5.39406H27.6299V0V0Z" fill="#E44D26"/>
+<path id="Shape_6" fill-rule="evenodd" clip-rule="evenodd" d="M19.9712 20.9545V24.5021H24.5821L24.1474 29.1032L19.9712 30.1712V33.8621L27.6475 31.8464L27.7038 31.247L28.5837 21.9071L28.6751 20.9545H27.6661H19.9712Z" fill="#E44D26"/>
+<path id="Shape_7" fill-rule="evenodd" clip-rule="evenodd" d="M19.9712 13.7738V15.9772V17.3129V17.3215H29.0038V17.3215H29.0158L29.0909 16.5241L29.2615 14.7256L29.3511 13.7738H19.9712Z" fill="#E44D26"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_603_652">
+<rect width="40" height="40" fill="white"/>
+</clipPath>
+<clipPath id="clip1_603_652">
+<rect width="29.975" height="40" fill="white" transform="translate(4.97705)"/>
+</clipPath>
+</defs>
+</svg>
