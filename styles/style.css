@@ -34,6 +34,7 @@ html {
 
 body {
 	display: flex;
+	gap: 80px;
 	flex-direction: column;
 	min-height: 100%;
 	font-family: "Graphik", sans-serif;
@@ -45,7 +46,6 @@ body {
 
 .header {
 	width: 100%;
-	margin-bottom: 120px;
 }
 
 .wrapper {
@@ -91,15 +91,18 @@ body {
 .nav-link:hover {
 	background-color: #5F70DB;
 	color: #bfbfbf;
+	border-radius: 20px;
 }
 
 .main {
 	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
 }
 
 .hero {
 	position: relative;
-	margin-bottom: 120px;
 }
 
 .hero__wrapper {
@@ -211,9 +214,7 @@ body {
 	top: 200px;
 }
 
-.contats {
-	margin-bottom: 120px;
-}
+
 
 .contacnts__wrapper {
 	flex-direction: column;
@@ -339,10 +340,6 @@ body {
 	text-align: left;
 }
 
-.skills {
-	margin-bottom: 120px;
-}
-
 .skills__wrapper {
 	flex-direction: column;
 	align-items: center;
@@ -387,10 +384,6 @@ body {
 }
 .skill__item--git {
 	background-image: url("../assets/icons/git.svg");
-}
-
-.code {
-	margin-bottom: 120px;
 }
 
 .code__wrapper {
@@ -473,10 +466,6 @@ body {
 
 .hljs-error {
 	color: #ed4816;
-}
-
-.aditional {
-	margin-bottom: 100px;
 }
 
 .aditional__wrapper {
