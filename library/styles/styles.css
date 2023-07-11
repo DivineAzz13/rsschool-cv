@@ -459,7 +459,7 @@ body {
 }
 .coffee__prices-title {
   color: #BB945F;
-  font-family: Forum;
+  font-family: "Forum", serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -467,6 +467,7 @@ body {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+
 .coffee__prices-item {
   position: relative;
   color: #000;
@@ -481,6 +482,10 @@ body {
   justify-content: space-between;
 }
 
+.coffee__prices-item--right {
+  justify-content: flex-end;
+  gap: 220px;
+}
 
 .coffee__prices-name {
 }
