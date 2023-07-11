@@ -296,6 +296,10 @@ body {
   grid-row-gap: 40px;
 }
 
+.favorites-list--spring,.favorites-list--summer,.favorites-list--autumn {
+  display: none;
+}
+
 .favorites-item {
   position: relative;
   width: 100%;
@@ -346,6 +350,7 @@ body {
 .favorites-item__author {
   text-transform: uppercase;
 }
+
 .favorites-item__description {
   width: 100%;
   max-width: 355px;
@@ -380,18 +385,27 @@ body {
 .favorites-item__btn--disabled {
   color: #BB945F;
   border: 1px solid #BB945F
-
 }
 
 .favorites-item__btn:not(:disabled) {
   cursor: pointer;
 }
 
+.favorites-item__btn:hover:not(:disabled) {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  background: #BB945F;
+  transition: .8s;
+}
+
+
 .favorites-item__book-holder {
   position: absolute;
-  bottom: 0;
-  right: -40px;
+  bottom: -1px;
+  right: -41px;
 }
+
 .favorites-item__book-img {
   display: block;
 }
+
