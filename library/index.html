@@ -18,7 +18,7 @@
             <a href="#" class="header__link">About</a>
           </li>
           <li class="header__item">
-            <a href="#" class="header__link">Favourites</a>
+            <a href="#" class="header__link">Favorites</a>
           </li>
           <li class="header__item">
             <a href="#" class="header__link">Coffee shop</a>
@@ -31,16 +31,58 @@
           </li>
         </ul>
       </nav>
-      <div class="profile">
+      <div class="header__profile">
         <svg width="28" height="28">
           <use xlink:href="./assets/icons/icon_profile.svg#profile">
           </use>
         </svg>
       </div>
-
-
     </div>
   </header>
+
+  <main class="main">
+    <section class="welcome">
+      <div class="title-wrapper">
+        <h2 class="welcome__title">Welcome<br> to the Brooklyn Library</h2>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="wrapper about__wrapper">
+        <h2 class="section-title about__title">About</h2>
+        <p class="section-text">The Brooklyn Library is a free workspace, a large number of books and a cozy coffee shop inside</p>
+        <ul class="carousel">
+          <li class="carousel__img-holder">
+            <img class="carousel-img" src="./assets/img/about1.jpg" alt="A girl is looking for a book.">
+          </li>
+          <li class="carousel__img-holder">
+            <img class="carousel-img" src="./assets/img/about2.jpg" alt="A girl is looking for a book.">
+          </li>
+          <li class="carousel__img-holder">
+            <img class="carousel-img" src="./assets/img/about3.jpg" alt="A girl is looking for a book.">
+          </li>
+        </ul>
+        <ul class="pagination">
+          <li class="pagination__item ">
+            <div class="pagination__dot pagination__dot--active"></div>
+          </li>
+          <li class="pagination__item">
+            <div class="pagination__dot"></div>
+          </li>
+          <li class="pagination__item">
+            <div class="pagination__dot"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="favorites">
+      <div class="wrapper favorites__wrapper">
+        <h2 class="section-title about__title">Favorites</h2>
+      </div>
+    </section>
+
+  </main>
   <script src="./scripts/index.js">
 
   </script>
