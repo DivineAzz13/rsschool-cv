@@ -213,7 +213,7 @@ body {
   align-self: flex-start;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .visually-hidden {
@@ -230,28 +230,48 @@ body {
 .input-list {
   align-self: flex-start;
   width: 100%;
-  max-width: 700px;
-  height: 24px;
+  max-width: 800px;
   display: flex;
   align-items: center;
   gap: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .input-item {
 }
+
+.input-item--winter {
+  width: 100%;
+  max-width: 104px;
+}
+
+.input-item--spring {
+  width: 100%;
+  max-width: 99px;
+}
+
+.input-item--summer {
+  width: 100%;
+  max-width: 116px;
+}
+
+.input-item--autumn {
+  width: 100%;
+  max-width: 111px;
+
+}
+
 .control {
   position: relative;
   display: block;
+  padding: 10px 0;
   padding-left: 37px;
-}
-
-.control-input {
+  cursor: pointer;
 }
 
 .control-mark {
   position: absolute;
-  top: 5px;
+  top: 15px;
   left: 0;
   width: 17px;
   height: 17px;
@@ -279,10 +299,9 @@ body {
   line-height: normal;
 }
 
-.control-label--current {
+.control-input[type="radio"]:checked ~ .control-label {
   font-weight: 700;
 }
-
 
 .favorites-list {
   align-self: flex-start;
