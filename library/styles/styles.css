@@ -23,16 +23,23 @@ body {
   color: #FFFFFF;
   padding: 20px;
 }
+
 .wrapper {
   width: 100%;
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
+  padding: 20px 0 40px;
 }
+
 .header__wrapper {
   justify-content: space-between;
+  padding: 0;
+  flex-direction: row;
 }
+
 .header__title {
   color: #FFF;
   font-family: "Forum", serif;
@@ -104,8 +111,7 @@ body {
 .wrapper {
 }
 .about__wrapper {
-  flex-direction: column;
-  padding: 20px 0 40px;
+
 }
 
 .section-title {
@@ -191,4 +197,105 @@ body {
 
 .pagination__dot--active {
   background-color: #BB945F;
+}
+
+.favorites {
+}
+
+.favorites__wrapper {
+  padding-top: 16px;
+}
+
+.about__title {
+}
+
+.favorites__text {
+  align-self: flex-start;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.input-list {
+  align-self: flex-start;
+  width: 100%;
+  max-width: 700px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 90px;
+  
+}
+
+.input-item {
+}
+.control {
+  position: relative;
+  display: block;
+  padding-left: 37px;
+}
+.control-input {
+}
+
+.control-mark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+  border: 2px solid #000;
+}
+
+.control-input[type="radio"]:checked + .control-mark::before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  width: 7px;
+  height: 7px;
+  background-color: #000;
+  border-radius: 50%;
+  content: "";
+}
+
+.control-label {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.control-label--current {
+  font-weight: 700;
+}
+
+
+.favorites-list {
+}
+.favorites-item {
+}
+.favorites-item__staff {
+}
+.favorites-item__title {
+}
+.favorites-item__author {
+}
+.favorites-item__description {
+}
+.favorites-item__book-holder {
+}
+.favorites-item__book-img {
 }
