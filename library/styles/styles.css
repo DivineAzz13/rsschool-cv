@@ -488,7 +488,7 @@ body {
 .coffee__prices-price {
   position: relative;
   color: #000;
-  font-family: Forum;
+  font-family: "Forum", serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
