@@ -440,7 +440,7 @@ body {
 .coffee__text {
   color: #000;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -487,7 +487,8 @@ body {
   gap: 220px;
 }
 
-.coffee__prices-name {
+.coffee__coffee-name {
+  
 }
 
 .coffee__prices-price {
@@ -506,7 +507,7 @@ body {
   content: "";
   position: absolute;
   top: 20px;
-  right: 81px;
+  right: 85px;
   width: 100px;
   height: 1px;
   background-color: #BB945F;
