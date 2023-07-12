@@ -135,8 +135,9 @@ body {
   width: 50px;
   height: 1px;
   background-color: #0C0C0E;
-  bottom: -1px;
-  left: 29px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
